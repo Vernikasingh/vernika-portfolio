@@ -1892,5 +1892,18 @@ button {
         font-size: 10px;
     }
 }
+/* Centre images inside the logo project modal */
+#modalGallery {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
 
+#modalGallery img {
+    display: block;
+    margin: 0 auto !important;
+    object-position: center;
+}
 
