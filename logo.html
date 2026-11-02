@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logo Design | Vernika Singh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+
+  <a class="small-mark" href="index.html">VS<span>.</span></a>
+
+  <nav class="main-nav">
+    <a href="about.html">About</a>
+    <a href="designs.html">Design</a>
+    <a href="logo.html" class="active">Logo</a>
+    <a href="marketing.html">Marketing</a>
+    <a href="photography.html">Photography</a>
+    <a href="research.html">Research</a>
+  </nav>
+
+</header>
+
+  <main class="logo-page">
+
+    <section class="logo-intro">
+      <p class="eyebrow">SELECTED WORK / 2026</p>
+      <h1>Logo <span>Design.</span></h1>
+      <p class="logo-intro-text">
+        A collection of identities, ideas and visual experiments.
+      </p>
+    </section>
+
+    <section class="logo-grid">
+
+      <!-- PROJECT 01 -->
+      <article class="logo-card">
+        <button class="logo-trigger" data-project="0" aria-label="Open project 1">
+          <img src="images/logo-01.png" alt="Logo project 01">
+        </button>
+        <p class="logo-index">01 / BRAND IDENTITY</p>
+      </article>
+
+      <!-- PROJECT 02 -->
+      <article class="logo-card">
+        <button class="logo-trigger" data-project="1" aria-label="Open project 2">
+          <img src="images/logo-02.png" alt="Logo project 02">
+        </button>
+        <p class="logo-index">02 / BRAND IDENTITY</p>
+      </article>
+
+      <!-- PROJECT 03 -->
+      <article class="logo-card">
+        <button class="logo-trigger" data-project="2" aria-label="Open project 3">
+          <img src="images/logo-03.png" alt="Logo project 03">
+        </button>
+        <p class="logo-index">03 / VISUAL IDENTITY</p>
+      </article>
+
+      <!-- PROJECT 04 -->
+      <article class="logo-card">
+        <button class="logo-trigger" data-project="3" aria-label="Open project 4">
+          <img src="images/logo-04.jpg" alt="Logo project 04">
+        </button>
+        <p class="logo-index">04 / VISUAL IDENTITY</p>
+      </article>
+
+      <!-- PROJECT 05 -->
+      <article class="logo-card">
+        <button class="logo-trigger" data-project="4" aria-label="Open project 5">
+          <img src="images/logo-05.png" alt="Logo project 05">
+        </button>
+        <p class="logo-index">05 / LOGO DESIGN</p>
+      </article>
+
+      <!-- PROJECT 06 -->
+      <article class="logo-card">
+        <button class="logo-trigger" data-project="5" aria-label="Open project 6">
+          <img src="images/Logo-06.png" alt="Logo project 06">
+        </button>
+        <p class="logo-index">06 / LOGO DESIGN</p>
+      </article>
+
+      <!-- PROJECT 07 -->
+      <article class="logo-card">
+        <button class="logo-trigger" data-project="6" aria-label="Open project 7">
+          <img src="images/logo-07.png" alt="Logo project 07">
+        </button>
+        <p class="logo-index">07 / BRAND IDENTITY</p>
+      </article>
+
+  
+
+    </section>
+
+  </main>
+
+  <!-- PROJECT MODAL -->
+  <div class="logo-modal" id="logoModal" aria-hidden="true">
+
+    <div class="logo-modal-backdrop"></div>
+
+    <div class="logo-modal-content" role="dialog"
+         aria-modal="true" aria-labelledby="modalTitle">
+
+      <button class="modal-close" aria-label="Close project">&times;</button>
+
+      <div class="modal-project-heading">
+        <p class="eyebrow" id="modalCategory">BRAND IDENTITY</p>
+        <h2 id="modalTitle">Project Title</h2>
+        <p id="modalDescription">Project description goes here.</p>
+      </div>
+
+      <div class="modal-gallery" id="modalGallery"></div>
+
+      <div class="modal-navigation">
+        <button id="previousProject">← Previous</button>
+        <span id="projectCounter">01 / 08</span>
+        <button id="nextProject">Next →</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
